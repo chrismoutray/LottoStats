@@ -48,16 +48,19 @@ namespace LottoStats.Core
 				Console.WriteLine();
 			}
 
-			LoadHistory("DrawHistory.csv");
+            string datafile = @"..\..\..\DrawHistory.csv";
+
+			LoadHistory(datafile);
 
 			LoadHistory(filename);
 
-			SaveHistory("DrawHistory.csv");
+            SaveHistory(datafile);
 		}
 
 		public void SaveHistory(string filename)
 		{
-			File.Copy(filename, string.Format("DrawHistory_{0:0000}{1:00}{2:00}.csv.bak", DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day), true); 
+            if (File.Exists(filename))
+    			File.Copy(filename, string.Format("DrawHistory_{0:0000}{1:00}{2:00}.csv.bak", DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day), true); 
 			
 			using (StreamWriter sw = new StreamWriter(filename))
 			{
