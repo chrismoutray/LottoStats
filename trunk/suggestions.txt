@@ -1,0 +1,20 @@
+CHANGE MIND SET - STOP TRYING USE MOST POPULAE %'S AND INSTEAD GO WITH THE OPPOSITE
+like with a coin flip ie 50-50 heads or tails if 10 heads occurred then likely tail will be next
+
+http://lottery.merseyworld.com/Info/Strategy.html
+
+most common balls
+most common sets
+ball range percent eg between 23 and 35 is 99%
+common last ball, first ball
+exclude last balls picked - percent of ball being picked 2 weeks in a row
+
+http://www.lottostrategies.com/script/showpage/1001001/c/wheeling_system.html
+
+
+http://www.mathsisfun.com/combinatorics/combinations-permutations-calculator.html
+//                  n!			    52!
+//n choose p  = -----------		----------- = 2598960
+//               p! (n-p)!		 5! (52-5)!
+
+http://www.vicman.net/download/14551/
